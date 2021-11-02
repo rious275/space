@@ -7,34 +7,7 @@ function Space() {
       <div>
         <Contents>
           <div>
-            Title: Contents Card
-          </div>
-          <div>
-            Body: Contents
-          </div>
-        </Contents>
-        <Contents>
-          <div>
-            Title: Contents Card
-          </div>
-          <div>
-            Body: Contents
-          </div>
-        </Contents>
-        <Contents>
-          <div>
-            Title: Contents Card
-          </div>
-          <div>
-            Body: Contents
-          </div>
-        </Contents>
-        <Contents>
-          <div>
-            Title: Contents Card
-          </div>
-          <div>
-            Body: Contents
+            Space
           </div>
         </Contents>
       </div>
