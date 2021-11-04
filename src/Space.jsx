@@ -7,7 +7,7 @@ function Space() {
       <div>
         <Contents>
           <div>
-            Space
+            Space.
           </div>
         </Contents>
       </div>
