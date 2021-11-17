@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import Space from './Space';
+import GlobalStyle from './styles/GlobalStyle';
+import Routes from './Routes'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Space />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes />
+    <GlobalStyle />
+  </BrowserRouter>,
   document.getElementById('root')
 );
