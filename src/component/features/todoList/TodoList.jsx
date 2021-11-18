@@ -4,9 +4,19 @@ import styled from "styled-components";
 const TodoList = () => {
  return (
     <Container>
-      <TodoTitle>헤더 제목 부분입니다.</TodoTitle>
-      <TodoCreate>TodoCreacte 인풋박스</TodoCreate>
-      <TodoListBox>TodoList 리스트 박스</TodoListBox>
+      <TodoTitle>
+        <h1>todo list</h1>
+      </TodoTitle>
+      <TodoCreate>
+        <input type='text' />
+        <button>생성</button>
+      </TodoCreate>
+      <TodoListBox>
+        <ul>
+          <li>할일 목록 1</li>
+          <li>할일 목록 2</li>
+        </ul>
+      </TodoListBox>
     </Container>
  )
 }
@@ -23,8 +33,21 @@ const Container = styled.main`
 `;
 
 const TodoTitle = styled.header`
-  border: 1px solid red;
+  margin-bottom: 40px;
+  font-size: 50px;
 `;
 
-const TodoCreate = styled.div``;
-const TodoListBox = styled.div``;
+const TodoCreate = styled.div`
+  margin-bottom: 20px;
+`;
+const TodoListBox = styled.div`
+  width: 500px;
+  height: 300px;
+  padding: 20px 20px;
+  
+  border: 1px solid #000;
+
+  li {
+    margin-bottom: 14px;
+  }
+`;
